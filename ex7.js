@@ -11,6 +11,11 @@ function power(base, exponent) {
   }
 
   // your code here!
+   let newNumber = base;
+   for (let i = 1; i !== exponent; i++) {
+      newNumber *= base;
+   }
+   return newNumber;
 }
 
 console.log("let's run some tests");
