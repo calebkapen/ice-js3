@@ -3,5 +3,5 @@ let output;
 
 // make the program print bananas
 // your code here
-
+bananasString = consonants.join("a");
 console.log(output);
